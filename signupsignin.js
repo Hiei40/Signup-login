@@ -1,3 +1,43 @@
+// const express = require('express');
+// const CryptoJS = require('crypto-js');
+// const app = express();
+
+// app.use(express.json());
+
+// app.post('/decrypt', (req, res) => {
+//   try {
+//     const { encryptedData, keyBase64, ivBase64 } = req.body;
+
+//     if (!encryptedData || !keyBase64 || !ivBase64) {
+//       return res.status(400).json({ error: 'encryptedData, keyBase64, and ivBase64 are required' });
+//     }
+
+//     const key = CryptoJS.enc.Base64.parse(keyBase64);
+//     const iv = CryptoJS.enc.Base64.parse(ivBase64);
+
+//     const decrypted = CryptoJS.AES.decrypt(
+//       { ciphertext: CryptoJS.enc.Base64.parse(encryptedData) },
+//       key,
+//       { iv: iv, mode: CryptoJS.mode.CBC, padding: CryptoJS.pad.Pkcs7 }
+//     );
+
+//     const text = decrypted.toString(CryptoJS.enc.Utf8);
+
+//     if (!text) {
+//       return res.status(400).json({ error: 'Empty or invalid decrypted output' });
+//     }
+
+//     res.json({ decryptedText: text });
+//   } catch (error) {
+//     res.status(500).json({ error: error.message });
+//   }
+// });
+
+// const PORT = 3000;
+// app.listen(PORT, () => {
+//   console.log(`Decryption API running on port ${PORT}`);
+// });
+
 const http = require("http");
 const fs = require("fs");
 

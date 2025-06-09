@@ -1,26 +1,5 @@
-[
-  {
-    "id": 2,
-    "name": "User 2",
-    "age": 227,
-    "email": "us222er@email.com"
-  },
-  {
-    "id": 3,
-    "name": "User 52",
-    "age": 227,
-    "email": "us222er@ema22il.com"
-  },
-  {
-    "id": 4,
-    "name": "User 522222",
-    "age": 227,
-    "email": "us222222er@ema22il.com"
-  },
-  {
-    "id": 4,
-    "name": "User 522222",
-    "age": 227,
-    "email": "us222222er22@ema22il.com"
-  }
-]
+{
+  "encryptedData": "kX4t8zL7pQ9rW3mB2vN6yF0xJ5hK1cG8eD9aT2uR4sV=",
+  "keyBase64": "kX4t8zL7pQ9rW3mB2vN6yF0xJ5hK1cG8eD9aT2uR4sV=",
+  "ivBase64": "GawgguFyGrWKav7AX4VKUg=="
+}
